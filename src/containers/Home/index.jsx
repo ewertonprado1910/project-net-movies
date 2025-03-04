@@ -59,7 +59,7 @@ function Home() {
                 <Button red onClick={() => navigate(`/detalhe/${movie.id}`)}>
                   Assista agora
                 </Button>
-                <Button onClick={() => setShowModal(true)}>Assista o traler</Button>
+                <Button onClick={() => setShowModal(true)}>Assista o trailer</Button>
               </ContainerButtons>
             </Info>
             <Poster>
@@ -69,8 +69,8 @@ function Home() {
         </Background>
       )}
       {topMovies && <Slider info={topMovies} title={"Top Filmes"} />}
-      {topSeries && <Slider info={topSeries} title={"Top Series"} />}
-      {seriesPopular && <Slider info={seriesPopular} title={"Series Popular"} />}
+      {topSeries && <Slider info={topSeries} title={"Top Séries"} />}
+      {seriesPopular && <Slider info={seriesPopular} title={"Séries Popular"} />}
       {person && <Slider info={person} title={"Artistas"} />}
       {tvOnline && <Slider info={tvOnline} title={"Filmes , Séries , Programas de tv e muito mais..."} />}
     </>
