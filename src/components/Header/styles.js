@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 z-index: 99;
-position: fixed;
+position: absolute;
 top: 0;
 padding: 5px 50px;
 width: 100%;
@@ -15,6 +15,18 @@ transition: background-color 0.5s ease-in-out;
 img {
     width: 300px;
 }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      display: none;
+    }
+  }
+
 `
 export const Menu = styled.ul`
 display: flex;

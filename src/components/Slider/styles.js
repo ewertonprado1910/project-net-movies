@@ -6,14 +6,27 @@ padding: 0 20px;
 h2 {
     color: #ffffff;
     font-size: 25px;
-    padding: 40px 0px 20px 20px ;
+    padding: 40px 0px 20px 20px;
     text-decoration: underline;
-    text-decoration-color: #ffffff  ;
-    
-    
+    text-decoration-color: #ffffff;
+}
+.swiper {
+  width: 100%;
+  overflow: hidden;
 }
 .swiper-wrapper {
-    display: flex;
+  display: flex;
 }
 
+@media screen and (max-width: 800px) {
+    .swiper-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+  }
 `

@@ -6,7 +6,7 @@ gap: 10px;
 margin-top: 20px;
 
 img {
-    width: 250px;
+    width: 200px;
     border-radius: 20px;
 }
 
@@ -18,6 +18,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px){
+    p {
+        font-size: 13px;
+    }
+    img {
+       width: 100px;
+       margin: 0 15px;
+}
 }
 `
 export const Title = styled.h2 `

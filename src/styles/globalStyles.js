@@ -12,7 +12,7 @@ export default createGlobalStyle`
     font-family: "Montserrat", serif;
 }
 
-body 
+ body 
 {
   background: #000000 ;
 }

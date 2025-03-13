@@ -42,14 +42,21 @@ justify-content: center;
 align-items: flex-start;
 max-width: 1500px;
 margin-top: -100px;
+
+@media screen and (max-width: 800px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
 `
 export const Cover = styled.div`
 padding: 20px;
-display: felx;
+display: flex;
 align-items: flex-start;
 height: 100%;
 z-index: 99;
-
 
 img {
     width: 400px;
@@ -57,8 +64,13 @@ img {
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
     animation: ${scale} 0.7s linear;
 }
+@media screen and (max-width: 800px){
+    img {
+        width: 250px;
+    }
+}
 `
-export const Info = styled.div `
+export const Info = styled.div`
 padding: 20px;
 width: 50%;
 z-index: 99;
@@ -73,13 +85,25 @@ h2 {
 }
 
 p {
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 800px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+    p{
+        text-align: center;
+        font-size: 11px;
+    }
+}
 `
-export const ContainerMovies = styled.div `
+export const ContainerMovies = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -105,5 +129,20 @@ h4 {
 iframe {
     border: none;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 800px){
+    h4 {
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        align-self: center;
+        
+    }
+    
 }
 `

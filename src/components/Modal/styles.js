@@ -20,9 +20,12 @@ position: fixed;
 padding: 40px ;
 max-width: 1200px;
 
-
 iframe {
     border: none;
+}
+
+@media screen and (max-width: 800px) {
+    width: auto;
 }
 `
 export const ContainerButton = styled.button `

@@ -1,8 +1,9 @@
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 
 
 export const Background = styled.div`
 background-image: url(${props => props.img});
+width: 100vw;
 height: 100vh;
 background-position: center;
 background-size: cover;
@@ -19,7 +20,10 @@ margin-top: 50px 0;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.4);
-    
+}
+
+@media screen and (max-width: 800px) {
+    padding: 50px 20px;
 }
 `
 export const Container = styled.div`
@@ -29,6 +33,11 @@ justify-content: space-around;
 height: 100%;
 max-width: 1500px;
 margin: 50px 0px;
+
+@media screen and (max-width: 800px) {
+    flex-direction: column;
+    text-align: center;
+  }
 `
 export const Info = styled.div`
 z-index: 2;
@@ -47,17 +56,41 @@ p {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 800px) {
+    width: 80%; 
+    
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 18px;
+    } 
+}
 `
 export const Poster = styled.div`
  z-index: 2;
  
 img {
     width: 300px;
-    border-radius: 25px;
-}
+    border-radius: 25px; 
+} 
+@media screen and (max-width: 800px){
+    img {
+        width: 200px;
+    }
+    
+}  
 `
 export const ContainerButtons = styled.div`
 display: flex;
 gap: 20px;
 margin-top: 30px;
+
+@media screen and (max-width: 800px) {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
 `
+
