@@ -60,10 +60,10 @@ p {
     width: 80%; 
     
     h1 {
-        font-size: 45px;
+        font-size: 25px;
     }
     p {
-        font-size: 18px;
+        font-size: 12px;
     } 
 }
 `
@@ -76,7 +76,7 @@ img {
 } 
 @media screen and (max-width: 800px){
     img {
-        width: 200px;
+        width: 150px;
     }
     
 }  

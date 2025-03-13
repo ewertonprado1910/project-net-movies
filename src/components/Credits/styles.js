@@ -21,12 +21,16 @@ p {
 }
 
 @media screen and (max-width: 800px){
-    p {
-        font-size: 13px;
-    }
-    img {
+   img {
        width: 100px;
-       margin: 0 15px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+}
+p {
+    font-size: 9px;
+    text-align: center;
 }
 }
 `

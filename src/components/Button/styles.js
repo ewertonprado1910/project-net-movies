@@ -19,6 +19,12 @@ height: 50px;
 `
 export const ButtonWhite = styled.button `
 ${button}
+
+@media screen and (max-width: 800px) {
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
 `
 export const ButtonRed = styled.button `
 ${button}
@@ -31,5 +37,11 @@ box-shadow: 0px 0px 7px 8px rgb(255 0 0/ 30%);
     box-shadow: 0px 0px 7px 15px rgb(255 0 0/ 30%);
     background: #ff0000;
     color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 10px;
 }
 `

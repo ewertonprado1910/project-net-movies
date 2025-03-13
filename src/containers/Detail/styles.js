@@ -99,7 +99,7 @@ p {
 
     p{
         text-align: center;
-        font-size: 11px;
+        font-size: 9px;
     }
 }
 `
@@ -133,14 +133,11 @@ iframe {
 
 @media screen and (max-width: 800px){
     h4 {
-        text-align: center;
+        display: none;
     }
 
     iframe {
-        width: 300px;
-        height: 250px;
-        display: flex;
-        align-self: center;
+        display: none;
         
     }
     
