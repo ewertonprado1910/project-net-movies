@@ -23,6 +23,7 @@ h3 {
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 10px;
     }
     h3 {
         font-size: 7px;

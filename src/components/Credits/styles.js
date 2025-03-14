@@ -21,6 +21,7 @@ p {
 }
 
 @media screen and (max-width: 800px){
+    margin-bottom: -70px;
    img {
        width: 100px;
        display: flex;
