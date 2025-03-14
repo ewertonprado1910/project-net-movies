@@ -23,10 +23,11 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 25px;
+        gap: 5px;
     }
     h2 {
-        font-size: 15px;
+        font-size: 10px;
+        margin-top: -75px;
     }
   }
 `

@@ -35,7 +35,6 @@ border: none;
 cursor: pointer;
 max-width: 4px;
 margin-top: -30px;
-
 `
 
 

@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
 background-color: #0f0f0f;
 min-height: 100vh;
-margin: 50px 0px;
+margin: 40px 0px;
 pointer-events: none;
 
 .swiper-wrapper {
@@ -20,9 +20,6 @@ pointer-events: none;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-    
- 
 }
 `
