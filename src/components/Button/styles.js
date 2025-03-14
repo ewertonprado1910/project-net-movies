@@ -21,7 +21,7 @@ export const ButtonWhite = styled.button `
 ${button}
 
 @media screen and (max-width: 800px) {
-    width: 100px;
+    width: 80px;
     padding: 5px 10px;
     font-size: 10px;
 }
@@ -40,7 +40,7 @@ box-shadow: 0px 0px 7px 8px rgb(255 0 0/ 30%);
 }
 
 @media screen and (max-width: 800px) {
-    width: 100px;
+    width: 80px;
     padding: 5px 10px;
     font-size: 10px;
 }

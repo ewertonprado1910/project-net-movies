@@ -76,7 +76,7 @@ img {
 } 
 @media screen and (max-width: 800px){
     img {
-        width: 150px;
+        width: 180px;
     }
     
 }  
@@ -91,6 +91,5 @@ margin-top: 30px;
     gap: 10px;
     align-items: center;
   }
-
 `
 

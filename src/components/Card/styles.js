@@ -17,13 +17,15 @@ h3 {
     margin-top: 15px;
     font-size: 18px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     img {
-      width: 200px;
+      width: 80px;
       display: flex;
+      justify-content: center;
+      align-items: center;
     }
     h3 {
-        font-size: 12px;
+        font-size: 7px;
         text-align: center;
     }
   }

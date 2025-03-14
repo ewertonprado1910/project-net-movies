@@ -1,27 +1,10 @@
 import styled from "styled-components"
 
-export const Background = styled.div `
-background: url(${props => props.img});
-background-position: center;
-background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 25px 0;
-
-&::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    
-}
-`
 export const Container = styled.div`
+background-color: #0f0f0f;
+min-height: 100vh;
 margin: 50px 0px;
+pointer-events: none;
 
 .swiper-wrapper {
    display: flex;
@@ -29,6 +12,17 @@ margin: 50px 0px;
    align-items: center;
    flex-wrap: wrap;
    gap: 50px;
-   font-size: 12px;
+   
+}
+@media screen and (max-width: 800px) {
+    .swiper-wrapper {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+ 
 }
 `

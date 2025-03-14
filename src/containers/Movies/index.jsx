@@ -8,7 +8,7 @@ import Slider from "../../components/Slider"
 
 function Movies() {
     const [movieScreen, setMovieScreen] = useState()
-    
+
     useEffect(() => {
         async function getScreenMovies() {
 
@@ -26,7 +26,6 @@ function Movies() {
     return (
         <Container>
             {movieScreen && <Slider info={movieScreen} title={"Filmes"} />}
-
         </Container>
 
     )
